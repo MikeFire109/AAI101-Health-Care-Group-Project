@@ -1,5 +1,8 @@
-Data acquisition plan:
+Data acquisition plan: As we layed out in the 'Purpose' section of the group charter, we believe doctors and data analysts in the health care field have poor methodology when it comes to acquring data. Allow us to explain: as it stands today, the data used for risk health assessments are only gathered through workplace, insurance, and clinical questionnaires. On average, an individual will fill out one of these questionnaires once a year. This is not good enough. Cardinal AI will be supported with more and better data through more frequent questionnaires, health sensors, and smartphones. Modern smartphones have the ability to estimate activity and sleep levels. Health sensors, such as watches and rings, can measure movement, cardiovascular signals, biochemical data, and plenty more.
 
-Data modeling plan:
+Data modeling plan: Before deciding which models to use, we first have to establish what we want to gain from the data modeling stage of this project. Using statistical modeling, we want to predict early health risks and identify drivers of that risk for each individual. Health risks may include (but not limited to) diabetes, cardiovascular events, and obesity and metabolic syndrome risk. As far as models go, we will perform both classification and regression analysis depending on what the type of data calls for. For instance, classification is appropriate to determine if an individual is at a risk of falling (this is common with older individuals). Regression analysis can be used to predict weight trajectory. At this point, it is worth mentioning that we want to be constantly updating the models as we collect more and more data in order to fit the data as best as possible. Finally, we want to analyze the results of our test data using metrics like AUC and Brier Score.
 
-Potential limitations:
+Potential limitations: The potential limitations lay within the data collection process. Self-reflect data will always carry a bias, or at least an asterisk next to it. The risk of people lying on the questionnaires is
+- surveys (might not tell the truth)
+- wearable: not everyone has one
+- smartphone: inaccurate data
