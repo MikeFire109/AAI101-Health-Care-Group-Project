@@ -1,12 +1,7 @@
-Peer and Self-Assessment
-After completing the project, each team member must submit a short peer and self-assessment.
+As the team's feature data scientist and data engineer, I worked primarily on data acqusition, data modeling, and data analysis. I found new ways to collect data (the lack of current and relevant data is why modern HRA's fail to accurately identify health risks), how we would transform that data into something we can perform analysis on, and selecting the appriopriate models to find patterns and trends in the data. I also helped Jason put together the slide deck.
 
-Include:
+Jason came up with the idea to create a vastly improved HRA. He identified potential ethical concerns and broke down the target market. His contribution to the visual aspect of our project was huge; he made the logo and designed the PowerPoint.
 
-Your name and assigned role.
+I learned a lot about generalized additive models and how they differ from standard regression models. I think this type of model will come in very useful for a personal machine learning project I'm working on.
 
-Description of your contribution and workload.
-
-Constructive feedback on your team’s collaboration.
-
-Any challenges or team dynamics worth noting.
+If I had more time or resources, I would spend time doing two things: Explore the personalization of an AI-assissted health risk assessment application. Other companies have really expanded their ability to connect with individual customers through AI-assissted personalization. I would also tinker with an interface prototype. I don't have a graphic design or software developer background but I've always been interested.
